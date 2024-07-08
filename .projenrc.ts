@@ -1,0 +1,28 @@
+import { cdk, javascript } from 'projen';
+const project = new cdk.JsiiProject({
+  author: 'yicr',
+  authorAddress: 'yicr@users.noreply.github.com',
+  authorOrganization: true,
+  defaultReleaseBranch: 'main',
+  typescriptVersion: '5.4.x',
+  jsiiVersion: '5.4.x',
+  name: '@gammarers/aws-cdk-errors',
+  projenrcTs: true,
+  repositoryUrl: 'https://github.com/gammarers/aws-cdk-errors.git',
+  npmAccess: javascript.NpmAccess.PUBLIC,
+  releaseToNpm: false, // temp
+  depsUpgrade: true,
+  depsUpgradeOptions: {
+    workflowOptions: {
+      labels: ['auto-approve', 'auto-merge'],
+      schedule: javascript.UpgradeDependenciesSchedule.expressions(['10 16 * * *']), // everyday
+    },
+  },
+  minNodeVersion: '18.0.0',
+  workflowNodeVersion: '22.x',
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['yicr'],
+  },
+});
+project.synth();
