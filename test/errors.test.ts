@@ -1,11 +1,11 @@
-import { InvalidInternalDeifinitionParameterError } from '../src';
+import { InvalidInternalDefinitionParameterError } from '../src';
 
 describe('Erros testing', () => {
 
-  it('Shoud Error InvalidInternalDeifinitionParameterError', () => {
+  it('Shoud Error InvalidInternalDefinitionParameterError', () => {
     expect(() => {
-      throw new InvalidInternalDeifinitionParameterError('param');
-    }).toThrow(InvalidInternalDeifinitionParameterError);
+      throw new InvalidInternalDefinitionParameterError('param');
+    }).toThrow(InvalidInternalDefinitionParameterError);
   });
 
 });
