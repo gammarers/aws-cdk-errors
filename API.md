@@ -4,30 +4,30 @@
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### InvalidInternalDeifinitionParameterError <a name="InvalidInternalDeifinitionParameterError" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError"></a>
+### InvalidInternalDefinitionParameterError <a name="InvalidInternalDefinitionParameterError" id="@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError"></a>
 
-#### Initializers <a name="Initializers" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer"></a>
+#### Initializers <a name="Initializers" id="@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.Initializer"></a>
 
 ```typescript
-import { InvalidInternalDeifinitionParameterError } from '@gammarers/aws-cdk-errors'
+import { InvalidInternalDefinitionParameterError } from '@gammarers/aws-cdk-errors'
 
-new InvalidInternalDeifinitionParameterError(parameterName: string, message?: string)
+new InvalidInternalDefinitionParameterError(parameterName: string, message?: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.parameterName">parameterName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.message">message</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.Initializer.parameter.parameterName">parameterName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.Initializer.parameter.message">message</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `parameterName`<sup>Required</sup> <a name="parameterName" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.parameterName"></a>
+##### `parameterName`<sup>Required</sup> <a name="parameterName" id="@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.Initializer.parameter.parameterName"></a>
 
 - *Type:* string
 
 ---
 
-##### `message`<sup>Optional</sup> <a name="message" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.message"></a>
+##### `message`<sup>Optional</sup> <a name="message" id="@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.Initializer.parameter.message"></a>
 
 - *Type:* string
 
@@ -39,12 +39,12 @@ new InvalidInternalDeifinitionParameterError(parameterName: string, message?: st
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.message">message</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.property.message">message</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.property.name">name</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `message`<sup>Required</sup> <a name="message" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.message"></a>
+##### `message`<sup>Required</sup> <a name="message" id="@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.property.message"></a>
 
 ```typescript
 public readonly message: string;
@@ -54,7 +54,7 @@ public readonly message: string;
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@gammarers/aws-cdk-errors.InvalidInternalDefinitionParameterError.property.name"></a>
 
 ```typescript
 public readonly name: string;
