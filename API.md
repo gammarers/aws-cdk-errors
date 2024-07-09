@@ -4,36 +4,65 @@
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### Hello <a name="Hello" id="@gammarers/aws-cdk-errors.Hello"></a>
+### InvalidInternalDeifinitionParameterError <a name="InvalidInternalDeifinitionParameterError" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError"></a>
 
-#### Initializers <a name="Initializers" id="@gammarers/aws-cdk-errors.Hello.Initializer"></a>
+#### Initializers <a name="Initializers" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer"></a>
 
 ```typescript
-import { Hello } from '@gammarers/aws-cdk-errors'
+import { InvalidInternalDeifinitionParameterError } from '@gammarers/aws-cdk-errors'
 
-new Hello()
+new InvalidInternalDeifinitionParameterError(parameterName: string, message?: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.parameterName">parameterName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.message">message</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-#### Methods <a name="Methods" id="Methods"></a>
+##### `parameterName`<sup>Required</sup> <a name="parameterName" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.parameterName"></a>
 
-| **Name** | **Description** |
-| --- | --- |
-| <code><a href="#@gammarers/aws-cdk-errors.Hello.sayHello">sayHello</a></code> | *No description.* |
+- *Type:* string
 
 ---
 
-##### `sayHello` <a name="sayHello" id="@gammarers/aws-cdk-errors.Hello.sayHello"></a>
+##### `message`<sup>Optional</sup> <a name="message" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.Initializer.parameter.message"></a>
+
+- *Type:* string
+
+---
+
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.message">message</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.name">name</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `message`<sup>Required</sup> <a name="message" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.message"></a>
 
 ```typescript
-public sayHello(): string
+public readonly message: string;
 ```
 
+- *Type:* string
 
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@gammarers/aws-cdk-errors.InvalidInternalDeifinitionParameterError.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
 
 
 
