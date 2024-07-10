@@ -10,7 +10,7 @@ const project = new cdk.JsiiProject({
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarers/aws-cdk-errors.git',
   npmAccess: javascript.NpmAccess.PUBLIC,
-  releaseToNpm: false, // temp
+  releaseToNpm: true,
   depsUpgrade: true,
   depsUpgradeOptions: {
     workflowOptions: {
