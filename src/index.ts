@@ -3,7 +3,7 @@ abstract class BaseError {
   name: string;
   message: string;
 
-  constructor(message: string) {
+  protected constructor(message: string) {
     this.name = 'BaseError';
     this.message = message;
     Object.setPrototypeOf(this, Error.prototype);
