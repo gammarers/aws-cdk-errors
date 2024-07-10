@@ -1,4 +1,4 @@
-import { InvalidInternalDefinitionParameterError } from '../src';
+import { DeprecatedParameterUsageError, InvalidInternalDefinitionParameterError } from '../src';
 
 describe('Erros testing', () => {
 
@@ -6,6 +6,12 @@ describe('Erros testing', () => {
     expect(() => {
       throw new InvalidInternalDefinitionParameterError('param');
     }).toThrow(InvalidInternalDefinitionParameterError);
+  });
+
+  it('Should Error DeprecatedParameterUsageError', () => {
+    expect(() => {
+      throw new DeprecatedParameterUsageError('param');
+    }).toThrow(DeprecatedParameterUsageError);
   });
 
 });

@@ -17,3 +17,11 @@ export class InvalidInternalDefinitionParameterError extends BaseError {
     Object.setPrototypeOf(this, new.target.prototype);
   }
 }
+
+export class DeprecatedParameterUsageError extends BaseError {
+  constructor(parameterName: string, message: string = `The parameter "${parameterName}" is deprecated and will be removed in future versions. Please update your code to use the recommended parameters.`) {
+    super(message);
+    this.name = 'DeprecatedParameterUsageError';
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
