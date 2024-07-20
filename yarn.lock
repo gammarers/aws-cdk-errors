@@ -3318,7 +3318,7 @@ jsii-diff@^1.101.0:
     log4js "^6.9.1"
     yargs "^16.2.0"
 
-jsii-docgen@^10.4.18:
+jsii-docgen@^10.4.19:
   version "10.4.19"
   resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.4.19.tgz#1702bad0b8acd7c955ce12a64e17ca6b13518b89"
   integrity sha512-M5iPQmYyCiMx+lYdPWv+P0BDJUo9l42eBO8uw9vh7lOdTaRLMr8RMF9fs1znkREkHTwtm7h3k2814Vk2Ee1sSA==
@@ -4030,7 +4030,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-projen@^0.84.5:
+projen@^0.84.6:
   version "0.84.6"
   resolved "https://registry.yarnpkg.com/projen/-/projen-0.84.6.tgz#e42066b12a635e39dd37af7e92390070373261f1"
   integrity sha512-1U5NguoaTq8F0xipZEyjriWrHbcJrtS6NaViFNHH7ABMRBYVXcfE2GGUSn1mVaAk51n09kSDit4D0n5W0di1Hg==
@@ -4696,7 +4696,7 @@ ts-api-utils@^1.3.0:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.3.0.tgz#4b490e27129f1e8e686b45cc4ab63714dc60eea1"
   integrity sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==
 
-ts-jest@^29.2.2:
+ts-jest@^29.2.3:
   version "29.2.3"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.2.3.tgz#3d226ac36b8b820151a38f164414f9f6b412131f"
   integrity sha512-yCcfVdiBFngVz9/keHin9EnsrQtQtEu3nRykNy9RVp+FiPFFbPJ3Sg6Qg4+TkmH0vMP5qsTKgXSsk80HRwvdgQ==
@@ -4832,9 +4832,9 @@ typescript@5.4.x, typescript@~5.4:
   integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
 
 typescript@next:
-  version "5.6.0-dev.20240719"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.0-dev.20240719.tgz#1bee8182303b6f4cdfb7a0b97d721aeea5ef7fc9"
-  integrity sha512-gwHt3fdLbe+LLgZJnPaGZ7v9MHTkjrqjf4NpxznO0SmFVSu7cEd8IwEsePtmQQZAX3FtPdgfwDmeNktid848Hw==
+  version "5.6.0-dev.20240720"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.0-dev.20240720.tgz#7a53fce109b11590c0be73757e28766cb2736aa0"
+  integrity sha512-Ge3ruIOs9B3a2ePioDbn5kGuR+ImXQiPceXKaKXt/Ak8yQxtaOzcC+KkrjKBhaKdT95bDeHMAZZ1hnlvnX7XVw==
 
 uglify-js@^3.1.4:
   version "3.19.0"
