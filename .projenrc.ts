@@ -25,5 +25,13 @@ const project = new cdk.JsiiProject({
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['yicr'],
   },
+  publishToPypi: {
+    distName: 'gammarers.aws-cdk-errors',
+    module: 'gammarers.aws_cdk_errors',
+  },
+  publishToNuget: {
+    dotNetNamespace: 'Gammarers.CDK.AWS',
+    packageId: 'Gammarers.CDK.AWS.CdkErrors',
+  },
 });
 project.synth();
