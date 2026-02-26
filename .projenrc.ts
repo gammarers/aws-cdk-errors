@@ -16,7 +16,7 @@ const project = new cdk.JsiiProject({
   depsUpgradeOptions: {
     workflowOptions: {
       labels: ['auto-approve', 'auto-merge'],
-      schedule: javascript.UpgradeDependenciesSchedule.expressions(['13 16 * * 6']),
+      schedule: javascript.UpgradeDependenciesSchedule.NEVER,
     },
   },
   minNodeVersion: '18.0.0',
